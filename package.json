@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxnikulcha96/quality_test_engineer_sap_task1.git"
+  },
   "keywords": [],
   "author": "Maxim Nikulcha",
   "license": "ISC",
