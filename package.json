@@ -1,0 +1,15 @@
+{
+  "name": "quality_test_engineer_sap_task1",
+  "version": "1.0.0",
+  "description": "Quality and Test Engineer part-time (SAP) - Task 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Maxim Nikulcha",
+  "license": "ISC",
+  "dependencies": {
+    "@sap_oss/odata-library": "^0.10.1"
+  }
+}
