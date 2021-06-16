@@ -5,7 +5,7 @@ var numberOfProducts = 10;
 
 var service = new Service(northwindApiUrl);
 
-service.init.then(()=> {
+service.init.then(() => {
     return service.Products.get(numberOfProducts);
 }).then((products) => {
     for (index in products) {
