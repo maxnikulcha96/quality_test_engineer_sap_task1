@@ -10,9 +10,17 @@
     "type": "git",
     "url": "git@github.com:maxnikulcha96/quality_test_engineer_sap_task1.git"
   },
-  "keywords": [],
+  "keywords": [
+    "SAP",
+    "OData",
+    "Javascript",
+    "Northwind"
+  ],
   "author": "Maxim Nikulcha",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxnikulcha96/quality_test_engineer_sap_task1/issues"
+  },
   "dependencies": {
     "@sap_oss/odata-library": "^0.10.1"
   }
