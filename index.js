@@ -1,12 +1,14 @@
 const Service = require("@sap_oss/odata-library").Service;
 
-const API_URL = "https://services.odata.org/V2/OData/OData.svc/";
-const NUM_OF_PRODUCTS = 10;
+let northwindODataUrl = "https://services.odata.org/V2/OData/OData.svc/";
+let numberOfProducts = 10;
 
-var service = new Service(API_URL);
+let service = new Service({
+    url: northwindODataUrl
+});
 
 service.init.then(() => {
-    return service.Products.get(NUM_OF_PRODUCTS);
+    return service.Products.get(numberOfProducts);
 }).then((products) => {
     for (index in products) {
         console.log(products[index].Name);
