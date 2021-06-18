@@ -13,8 +13,9 @@
   "keywords": [
     "SAP",
     "OData",
-    "Javascript",
-    "Northwind"
+    "Northwind",
+    "JavaScript",
+    "Node.js"
   ],
   "author": "Maxim Nikulcha",
   "license": "ISC",
