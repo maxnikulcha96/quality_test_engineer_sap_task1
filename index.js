@@ -10,7 +10,7 @@ let service = new Service({
 service.init.then(() => {
     return service.Products.get(numberOfProducts);
 }).then((products) => {
-    for (index in products) {
-        console.log(products[index].Name);
-    }
+    products.forEach(function (product) {
+        console.log(product.Name);
+    });
 });
